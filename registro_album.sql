@@ -1,0 +1,3 @@
+SELECT * FROM mydb.album;
+INSERT INTO album(id, nombre, fecha_de_creacion, artista_id, discografica_id, imagen_portada)
+VALUES (1, 'multiviral', '2018-06-20', '40', '30', 'https://is4-ssl.mzstatic.com/image/thumb/Music125/v4/d9/48/83/d9488320-effe-ae59-80c5-be8ab8ad83ea/886444506212.jpg/600x600bb.webp'),(2, 'colores', '2020-06-23', '250', '500', 'https://is2-ssl.mzstatic.com/image/thumb/Music125/v4/ae/b3/66/aeb36667-f9b2-c455-c3fc-a53bbd5ec4c1/20UMGIM10542.rgb.jpg/300x300bb.webp'),(3, 'god´s proyect', '2020-06-23', '380', '500', 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2e/e0/db/2ee0db3a-4607-4688-5ed5-a51eda69d49d/dj.phdgvndl.jpg/300x300bb.webp')
